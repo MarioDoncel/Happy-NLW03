@@ -1,0 +1,59 @@
+:root  {
+    /* Gradiente */
+    --gradiente:linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+    /* Cores */
+    --blue: #15C3D6;
+    --yellow: #FFD666;
+    --green: #37C77F;
+    --deletar: #FF669D;
+    /* Low Colors */
+    --blue-low: #D1EDF2;
+    --green-low: #EDFFF6;
+    --red-low: #FFE4EE;
+    /* Inputs */
+    --inputs: #FF669D;
+    /* Texts */
+    --base:#5C8599;
+    --title:#0089A5;
+    --title-darker:#4D6F80;
+    --complements:#8FA7B3;
+    --button:#FFFFFF;
+
+    /* Establishing 'rem' in 10px */
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    outline: none;
+}
+    
+
+body {
+    min-height: 100vh;
+    color: white;
+    background: #ebf2f5;
+}
+
+body, input, button, textarea{
+    font: 400 1.8rem/1 'Nunito', sans-serif;
+}
+
+
+
+
+
+
+
+
+@media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+@media (min-width:480px) { /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }

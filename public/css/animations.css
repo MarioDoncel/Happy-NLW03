@@ -1,0 +1,45 @@
+@keyframes go-up {
+    from {
+        opacity: 0;
+        transform: translateY(16px)
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }  
+}
+@keyframes go-right {
+    from {
+        opacity: 0;
+        transform: translateX(-100%)
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }  
+}
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }  
+}
+
+.animate-appear{
+    animation-name: appear;
+    animation-duration: 300ms;
+    animation-fill-mode:forwards;
+}
+.animate-up {
+    animation-name: go-up ;
+    animation-duration: 300ms;
+    animation-fill-mode: backwards;
+}
+.animate-right {
+    animation-name: go-right ;
+    animation-duration: 300ms;
+    animation-fill-mode: backwards;
+}
+
